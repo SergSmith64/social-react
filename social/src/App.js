@@ -3,12 +3,14 @@ import React from 'react';
 import './App.css';
 import Header from './header';
 import Tech from './tech';
+import Footer from './footer';
 
 const App = () => {
   return (
     <div>
       <Header />
       <Tech />
+      <Footer />
     </div>
   );
 }

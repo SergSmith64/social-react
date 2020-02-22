@@ -9,10 +9,10 @@ import Footer from './components/footer';
 const App = () => {
   return (
     <div className="app-wrapper">
-      <Header className="header" />
-      <Nav className="nav" />
-      <Main className="main" />
-      <Footer className="footer" />
+      <Header className="header"></Header>
+      <Nav className="nav"></Nav>
+      <Main className="main"></Main>
+      <Footer className="footer"></Footer>
     </div>
   );
 }

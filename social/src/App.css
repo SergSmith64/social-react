@@ -1,16 +1,25 @@
-/* .App {
-  text-align: center;
-} */
+.app-wrapper {
+  display: grid;
+  grid-template-areas:
+  "header header"
+  "nav main"
+  "footer footer";
+  grid-template-rows: 100px 1fr 50px;
+  grid-template-columns: 10fr 10fr;
+  /* grid-gap: 10px; */
+  background-color: #e93131;
+}
 
 a {
   padding: 10px 20px;
   margin: 5px;
-  background-color: #CCC;
+  background-color: #f7afaf;
 }
 
-.app-wrapper {
-  display: grid;
-}
+
+/* .App {
+  text-align: center;
+} */
 
 /* .App-logo {
   height: 40vmin;

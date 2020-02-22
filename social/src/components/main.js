@@ -1,7 +1,7 @@
 import React from 'react';
 import './main.css';
 
-const Tech = () => {
+const Main = () => {
     return (
       <ul>
         <li>11</li>
@@ -12,4 +12,4 @@ const Tech = () => {
     )
   }
 
-  export default Tech;
+  export default Main;

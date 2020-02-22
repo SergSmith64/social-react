@@ -2,14 +2,16 @@ import React from 'react';
 // import logo from './logo.svg';
 import './App.css';
 import Header from './components/header';
-import Tech from './components/main';
+import Nav from './components/nav';
+import Main from './components/main';
 import Footer from './components/footer';
 
 const App = () => {
   return (
-    <div>
+    <div className="app-wrapper">
       <Header />
-      <Tech />
+      <Nav />
+      <Main />
       <Footer />
     </div>
   );

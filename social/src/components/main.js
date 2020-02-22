@@ -1,5 +1,5 @@
 import React from 'react';
-import './tech.css';
+import './main.css';
 
 const Tech = () => {
     return (

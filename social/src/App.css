@@ -1,84 +1,84 @@
 .app-wrapper {
-  display: grid;
- grid-template-areas:
-"header"
-"nav main"
-"footer";
- grid-template-rows: 90px 1fr 1fr;
- grid-template-columns: 6fr 6fr 6fr;
+	display: grid;
+	grid-template-areas:
+	"header"
+	"nav main"
+	"footer";
+	grid-template-rows: 90px 1fr 1fr;
+	grid-template-columns: 6fr 6fr 6fr;
 }
 .header {
-  grid-area: header;
+	grid-area: header;
 }
 .nav {
-  grid-area: nav;
+	grid-area: nav;
 }
 .main {
-  grid-area: main;
+	grid-area: main;
 }
 .footer {
-  grid-area: footer;
+	grid-area: footer;
 }
 
 a {
-  padding: 10px 20px;
-  margin: 5px;
-  background-color: #f7afaf;
+	padding: 10px 20px;
+	margin: 5px;
+	background-color: #f7afaf;
 }
 
 
 /* .App {
-  text-align: center;
+	text-align: center;
 } */
 
 /* .App-logo {
-  height: 40vmin;
-  pointer-events: none;
+	height: 40vmin;
+	pointer-events: none;
 } */
 
 /* @media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+	.App-logo {
+		animation: App-logo-spin infinite 20s linear;
+	}
 } */
 
 /* .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+	background-color: #282c34;
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	font-size: calc(10px + 2vmin);
+	color: white;
 } */
 
 /* .App-link {
-  color: #61dafb;
+	color: #61dafb;
 } */
 
 /* .App ul {
-  background-color: blue;
-  padding: 40px;
+	background-color: blue;
+	padding: 40px;
 } */
 
 /* .Top-menu {
-  display: flex;
-  align-self: center;
+	display: flex;
+	align-self: center;
 } */
 
 /* .Top-menu a {
-  padding: 10px 20px;
-  background-color: lightblue;
-  margin: 5px;
+	padding: 10px 20px;
+	background-color: lightblue;
+	margin: 5px;
 } */
 
 
 /* @keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+	from {
+		transform: rotate(0deg);
+	}
+	to {
+		transform: rotate(360deg);
+	}
 } */

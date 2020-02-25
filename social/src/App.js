@@ -7,14 +7,14 @@ import Main from './components/main';
 import Footer from './components/footer';
 
 const App = () => {
-  return (
-    <div className="app-wrapper">
-      <Header className="header"></Header>
-      <Nav className="nav"></Nav>
-      <Main className="main"></Main>
-      <Footer className="footer"></Footer>
-    </div>
-  );
+	return (
+		<div className="app-wrapper">
+			<Header className="header"></Header>
+			<Nav className="nav"></Nav>
+			<Main className="main"></Main>
+			<Footer className="footer"></Footer>
+		</div>
+	);
 }
 
 export default App;

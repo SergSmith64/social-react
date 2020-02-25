@@ -1,5 +1,6 @@
 .footer__wrapper {
     padding-top: 10px;
     padding-bottom: 10px;
-    background-color: #2255FF;
+    background-color: #476ff3;
+    grid-column: 1/4;
   }

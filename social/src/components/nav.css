@@ -1,5 +1,8 @@
 .nav__wrapper {
     grid-row: 2/4;
-    background-color: yellow;
-    padding: 20px;
+    background-color: #07b568;
+    padding: 12px;
+}
+.nav__wrapper a {
+    display: block;
 }

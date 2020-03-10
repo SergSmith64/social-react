@@ -1,6 +1,7 @@
 import React from 'react';
 import logo from './logo-5ka__2.jpg';
 import './main.css';
+import Profile from './profile';
 
 const Main = () => {
     return (
@@ -11,7 +12,7 @@ const Main = () => {
             <li>22</li>
             <li>33</li>
           </ul>
-          {/* <img src={logo} className="logo5" alt="logo" /> */}
+          <Profile className="profile"></Profile>
       </div>
     )
   }

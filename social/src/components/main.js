@@ -6,7 +6,7 @@ import Profile from './profile';
 const Main = () => {
     return (
       <div>
-          <img src="https://cheapthailand.ru/images/Shapka.jpg" alt="Thai"></img>
+          <img src="https://cheapthailand.ru/images/antalia_sea.jpg" alt="Travel"></img>
           <ul>
             <li>11</li>
             <li>22</li>

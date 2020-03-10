@@ -4,6 +4,7 @@ import './App.css';
 import Header from './components/header';
 import Nav from './components/nav';
 import Main from './components/main';
+import Profile from './components/profile';
 import Footer from './components/footer';
 
 const App = () => {
@@ -12,6 +13,7 @@ const App = () => {
 			<Header className="header"></Header>
 			<Nav className="nav"></Nav>
 			<Main className="main"></Main>
+			<Profile className="profile"></Profile>
 
 			<div className="advert1">
 			The href attribute requires a valid value to be accessible. Provide a valid, navigable address as the href value. If you cannot provide a valid href, but still need the element to resemble a link,

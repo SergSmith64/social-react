@@ -11,7 +11,7 @@ const Main = () => {
             <li>22</li>
             <li>33</li>
           </ul>
-          <img src={logo} className="logo5" alt="logo" />
+          {/* <img src={logo} className="logo5" alt="logo" /> */}
       </div>
     )
   }

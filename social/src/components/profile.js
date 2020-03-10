@@ -4,7 +4,7 @@ import './profile.css';
 
 const Profile = () => {
   return (
-    <div>
+    <div className="profile-wrapper">
       <h3>Это чей-то Профиль</h3>
       <img src={logo} className="logo5" alt="logo" />
     </div>

@@ -2,8 +2,13 @@
   background-color: #72f8c0;
 }
 
+h3, h4 {
+  margin-block-start: 0.2em;
+  margin-block-end: 0.2em;
+}
+
 .logo5 {
-  padding: 15px;
+  padding: 5px;
   width: 70px;
   background-color: #164dc4;
 }

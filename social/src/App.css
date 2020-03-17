@@ -3,6 +3,7 @@
 	/* grid-template-rows: 90px 1fr 1fr; */
 	grid-template-columns: 1fr 4fr 1fr;
 	grid-gap: 1em;
+	margin: 0 auto;
 }
 
 .advert1 {
@@ -18,8 +19,8 @@
 	line-height: 1.6;
 }
 .advert3 {
-  background-color: #fa332c;
-  padding: 5px;
+	background-color: #fa332c;
+	padding: 5px;
 }
 a {
 	padding: 10px 20px;

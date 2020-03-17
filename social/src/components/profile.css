@@ -1,14 +1,19 @@
-.profile-wrapper {
-  background-color: #72f8c0;
+.profile__wrapper {
+	background-color: #35dd97;
+}
+.profile__item {
+	background-color: #a5fab3;
+	padding: 10px;
+	margin-bottom: 8px;
 }
 
 h3, h4 {
-  margin-block-start: 0.2em;
-  margin-block-end: 0.2em;
+	margin-block-start: 0.2em;
+	margin-block-end: 0.2em;
 }
 
-.logo5 {
-  padding: 5px;
-  width: 70px;
-  background-color: #164dc4;
+.ava {
+	padding: 5px;
+	width: 70px;
+	background-color: #164dc4;
 }

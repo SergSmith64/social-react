@@ -1,5 +1,4 @@
 import React from 'react';
-import logo from './logo-5ka__2.jpg';
 import './main.css';
 import Profile from './profile';
 
@@ -14,7 +13,8 @@ const Main = () => {
           <li>22</li>
           <li>33</li>
         </ul>
-        <Profile className="profile"></Profile>
+        {/* <Profile className="profile"></Profile> */}
+        <Profile />
       </div>
     )
   }

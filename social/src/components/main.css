@@ -1,13 +1,13 @@
 .main__img_wrapper img {
-    width: 100%;
+	width: 100%;
 }
 
-ul  {
-    background-color: #bbb;
+ul {
+	background-color: #bbb;
 }
 
 ul li {
-    padding: 5px;
-    background-color: pink;
-    list-style-type: georgian;
+	padding: 5px;
+	background-color: pink;
+	list-style-type: georgian;
 }

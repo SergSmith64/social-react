@@ -1,25 +1,9 @@
 .app-wrapper {
 	display: grid;
-	/* grid-template-areas:
-	"h"
-	"n m"
-	"f"; */
 	/* grid-template-rows: 90px 1fr 1fr; */
 	grid-template-columns: 1fr 4fr 1fr;
 	grid-gap: 1em;
 }
-/* .header {
-	grid-area: h;
-}
-.nav {
-	grid-area: n;
-}
-.main {
-	grid-area: m;
-}
-.footer {
-	grid-area: f;
-} */
 
 .advert1 {
 	background-color: lightgreen;
@@ -37,7 +21,6 @@
   background-color: #fa332c;
   padding: 5px;
 }
-
 a {
 	padding: 10px 20px;
 	margin: 5px;

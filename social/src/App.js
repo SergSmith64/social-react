@@ -1,9 +1,9 @@
 import React from 'react';
 import './App.css';
-import Header from './components/header';
-import Nav from './components/nav';
-import Main from './components/main';
-import Footer from './components/footer';
+import Header from './components/header/header';
+import Nav from './components/navbar/nav';
+import Main from './components/main/main';
+import Footer from './components/footer/footer';
 
 const App = () => {
 	return (
@@ -13,14 +13,18 @@ const App = () => {
 			<Main className="main"></Main>
 
 			<div className="advert1">
-			The href attribute requires a valid value to be accessible. Provide a valid, navigable address as the href value. If you cannot provide a valid href, but still need the element to resemble a link,
-valid, navigable address as the href value. Need the element to resemble a link, use a button and change it with approprvalid, navigable address as the href value. If you cannot provide a valid href, but still need the element to resemble a link,iate styles.
+				<p>Здесь могла бы быть ваша реклама</p>
+				<p>Здесь могла бы быть ваша реклама</p>
+				<p>Здесь могла бы быть ваша реклама</p>
 			</div>
 			<div className="advert2">
-			The href attribute requires a valid value to be accessible. Provide a valid, navigable address as the href value. If you  element to resemble a link, use a button and change it with appropriate styles. The href attribute requires a valid value to be accessible. Provide a valid, navigable address as the href value.
+				<p>НИЗ ПОСЕРЕДИНЕ С ОТБИВКОЙ ВПРАВО:</p>
+				<p>The href attribute requires a valid value to be accessible. Provide a valid, navigable address as the href value.</p>
 			</div>
 			<div className="advert3">
-				If you  element to resemble a link, use a button and change it with appropriate styles.
+				<p>ЭТО ПРАВЫЙ НИЖНИЙ УГОЛ</p>
+				<p>ЭТО ПРАВЫЙ НИЖНИЙ УГОЛ</p>
+				<p>ЭТО ПРАВЫЙ НИЖНИЙ УГОЛ</p>
 			</div>
 
 			<Footer className="footer"></Footer>

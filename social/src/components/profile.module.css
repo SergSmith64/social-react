@@ -17,6 +17,10 @@ h3, h4 {
 	width: 70px;
 	background-color: #164dc4;
 }
+.posts {
+	padding: 2px;
+	border: 2px #000 dashed;
+}
 
 .posts__item {
 	padding: 3px 6px;

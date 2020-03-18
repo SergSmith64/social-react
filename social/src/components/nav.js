@@ -1,9 +1,9 @@
 import React from 'react';
-import './nav.css';
+import classes from './nav.module.css';
 
 const Nav = () => {
     return (
-      <div className="nav__wrapper">
+      <div className={classes.nav__wrapper}>
         <a href="#">Profile</a>
         <a href="#">About</a>
         <a href="#">Friends</a>

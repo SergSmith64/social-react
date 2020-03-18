@@ -17,7 +17,7 @@ const Profile = () => {
 				<h3>Это чей-то Профиль</h3>
 				<img src={logo__1} className={classes.ava} alt="avatar" />
 				<h4>Описание профиля: интересы: музыка, кино, страны, где уже побывал</h4>
-				<div className="posts">
+				<div className={classes.posts}>
 					<div className={classes.posts__item}>Post 1</div>
 					<div className={classes.posts__item}>Post 2</div>
 					<div className={classes.posts__item}>Post 3</div>
@@ -28,7 +28,7 @@ const Profile = () => {
 				<h3>Это чей-то Профиль</h3>
 				<img src={logo__2} className={classes.ava} alt="avatar" />
 				<h4>Описание профиля: интересы: музыка, кино, страны, где уже побывал</h4>
-				<div className="posts">
+				<div className={classes.posts}>
 					<div className={classes.posts__item}>Post 1</div>
 					<div className={classes.posts__item}>Post 2</div>
 					<div className={classes.posts__item}>Post 3</div>
@@ -39,7 +39,7 @@ const Profile = () => {
 				<h3>Это чей-то Профиль</h3>
 				<img src={logo__3} className={classes.ava} alt="avatar" />
 				<h4>Описание профиля: интересы: музыка, кино, страны, где уже побывал</h4>
-				<div className="posts">
+				<div className={classes.posts}>
 					<div className={classes.posts__item}>Post 1</div>
 					<div className={classes.posts__item}>Post 2</div>
 					<div className={classes.posts__item}>Post 3</div>
@@ -50,7 +50,7 @@ const Profile = () => {
 				<h3>Это чей-то Профиль</h3>
 				<img src={logo__4} className={classes.ava} alt="avatar" />
 				<h4>Описание профиля: интересы: музыка, кино, страны, где уже побывал</h4>
-				<div className="posts">
+				<div className={classes.posts}>
 					<div className={classes.posts__item}>Post 1</div>
 					<div className={classes.posts__item}>Post 2</div>
 					<div className={classes.posts__item}>Post 3</div>
@@ -61,7 +61,7 @@ const Profile = () => {
 				<h3>Это чей-то Профиль</h3>
 				<img src={logo__5} className={classes.ava} alt="avatar" />
 				<h4>Описание профиля: интересы: музыка, кино, страны, где уже побывал</h4>
-				<div className="posts">
+				<div className={classes.posts}>
 					<div className={classes.posts__item}>Post 1</div>
 					<div className={classes.posts__item}>Post 2</div>
 					<div className={classes.posts__item}>Post 3</div>
@@ -72,7 +72,7 @@ const Profile = () => {
 				<h3>Это чей-то Профиль</h3>
 				<img src={logo__6} className={classes.ava} alt="avatar" />
 				<h4>Описание профиля: интересы: музыка, кино, страны, где уже побывал</h4>
-				<div className="posts">
+				<div className={classes.posts}>
 					<div className={classes.posts__item}>Post 1</div>
 					<div className={classes.posts__item}>Post 2</div>
 					<div className={classes.posts__item}>Post 3</div>
@@ -82,5 +82,7 @@ const Profile = () => {
 		</div>
 	)
 }
+
+console.log(classes);
 
 export default Profile;

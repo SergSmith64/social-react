@@ -1,3 +1,14 @@
-p {
-  color: yellow;
+.post__wrapper {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: #440404;
+  margin-bottom: 8px;
+}
+
+
+.ava {
+	padding: 5px;
+	width: 70px;
+  background-color: #164dc4;
+  border-radius: 50%;
 }

@@ -1,11 +1,13 @@
 import React from 'react';
-// ___ЗДЕСЬ - КАРТИНКИ___
+import logo__1 from './ava__1.jpg';
 import classes from './post.module.css';
 
-const Post = () => {
+const Post = (props) => {
+
   return (
-    <div>
-      <p>ЭТО КАКОЙ-ТО ПОСТ</p>
+    <div className={classes.post__wrapper}>
+      <img src={logo__1} className={classes.ava} alt="avatar" />
+      {props.message}
     </div>
   )
 }

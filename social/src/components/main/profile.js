@@ -13,7 +13,8 @@ const Profile = () => {
 		// <div className="profile__wrapper">
 		<div className={classes.profile__wrapper}>
 
-			<Post />
+			<Post message='Hi, how are you' />
+			<Post message="Good Bye" />
 
 			{/* <div className="profile__item"> */}
 			<div className={classes.profile__item}>

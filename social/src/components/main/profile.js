@@ -6,11 +6,14 @@ import logo__4 from './ava__4.jpg';
 import logo__5 from './ava__5.jpg';
 import logo__6 from './ava__6.jpg';
 import classes from './profile.module.css';
+import Post from './post';
 
 const Profile = () => {
 	return (
 		// <div className="profile__wrapper">
 		<div className={classes.profile__wrapper}>
+
+			<Post />
 
 			{/* <div className="profile__item"> */}
 			<div className={classes.profile__item}>

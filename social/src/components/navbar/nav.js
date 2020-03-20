@@ -4,10 +4,11 @@ import classes from './nav.module.css';
 const Nav = () => {
     return (
       <div className={classes.nav__wrapper}>
-        <a href="#">Profile</a>
-        <a href="#">About</a>
-        <a href="#">Friends</a>
-        <a href="#">Contacts</a>
+        <a href="#">Профиль</a>
+        <a href="#">Сообщения</a>
+        <a href="#">Новости</a>
+        <a href="#">Музыка</a>
+        <a href="#">НАСТРОЙКИ</a>
       </div>
     )
   }

@@ -3,8 +3,9 @@ import {Route, BrowserRouter} from 'react-router-dom';
 import './App.css';
 import Header from './components/header/header';
 import Nav from './components/navbar/nav';
-import Dialogs from './components/dialogs/dialogs';
 import Main from './components/main/main';
+import Dialogs from './components/dialogs/dialogs';
+import News from './components/news/news';
 import Footer from './components/footer/footer';
 
 const App = () => {
@@ -17,6 +18,7 @@ const App = () => {
 				<Route path='/dialogs' component={Dialogs} />
 				{/* <Main className="main"></Main> */}
 				{/* <Dialogs /> */}
+				<Route path='/news' component={News} />
 
 				<div className="advert1">
 					<p>Здесь могла бы быть ваша реклама</p>

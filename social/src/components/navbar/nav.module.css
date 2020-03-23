@@ -1,8 +1,20 @@
 .nav__wrapper {
-    grid-row: 2/4;
-    background-color: #ADD0B5;
-    padding: 12px;
+	grid-row: 2/4;
+	background-color: #ADD0B5;
+	padding: 12px;
 }
 .nav__wrapper a {
-    display: block;
+	display: block;
+	color: blue;
 }
+
+.nav__wrapper .a:activeLink {
+	color: green;
+}
+
+/* a:activeLink {
+	color: gold;
+}
+a:active {
+	color: red;
+} */

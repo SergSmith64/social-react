@@ -8,7 +8,9 @@ const Post = (props) => {
 	return (
 		<div className={classes.post__wrapper}>
 			<img src={logo__1} className={classes.ava} alt="avatar" />
-			<img src={logo__2} className={classes.ava} alt="avatar" />
+			
+			{/* <img src= "/static/media/{props.avatar}" className={classes.ava} alt="avatar" /> */}
+			
 			{props.message}
 			<div>Likes = {props.likesCount} </div>
 			<div>Это просто текст</div>

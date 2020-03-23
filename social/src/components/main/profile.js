@@ -13,7 +13,7 @@ const Profile = () => {
 		// <div className="profile__wrapper">
 		<div className={classes.profile__wrapper}>
 
-			<Post message='Hi, how are you' likesCount='0' />
+			<Post message='Hi, how are you' likesCount='0' avatar='./ava__1.jpg' />
 			<Post message="Good Bye" likesCount='23' />
 
 			{/* <div className="profile__item"> */}

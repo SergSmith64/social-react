@@ -2,6 +2,7 @@ import React from 'react';
 import './App.css';
 import Header from './components/header/header';
 import Nav from './components/navbar/nav';
+import Dialogs from './components/dialogs/dialogs';
 import Main from './components/main/main';
 import Footer from './components/footer/footer';
 
@@ -11,6 +12,7 @@ const App = () => {
 			<Header className="header"></Header>
 			<Nav className="nav"></Nav>
 			<Main className="main"></Main>
+			{/* <Dialogs /> */}
 
 			<div className="advert1">
 				<p>Здесь могла бы быть ваша реклама</p>

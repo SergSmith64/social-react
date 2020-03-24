@@ -7,7 +7,7 @@ const Dialogs = (props) => {
 	return (
 		<div className={classes.dialogs__wrapper}>
 			<div className={classes.dialogs__items}>
-				<div className={classes.dialogs_item}>Димыч</div>
+				<div className={classes.dialogs_item + ' ' + classes.active}>Димыч</div>
 				<div className={classes.dialogs_item}>Петр</div>
 				<div className={classes.dialogs_item}>Иван</div>
 				<div className={classes.dialogs_item}>Андрей</div>

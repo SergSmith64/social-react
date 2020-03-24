@@ -9,6 +9,9 @@
 	padding: 7px;
 	margin-bottom: 10px;
 }
+.dialogs_item.active {
+	color: red;
+}
 .dialogs_message {
 	background-color: #a7f2ff;
 	padding: 7px;

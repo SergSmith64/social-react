@@ -2,7 +2,7 @@ import React from 'react';
 import {Route, BrowserRouter} from 'react-router-dom';
 import './App.css';
 import Header from './components/header/header';
-import Nav from './components/navbar/nav';
+import NavBar from './components/navbar/navbar';
 import Main from './components/main/main';
 import Dialogs from './components/dialogs/dialogs';
 import News from './components/news/news';
@@ -13,7 +13,7 @@ const App = () => {
 		<BrowserRouter>
 			<div className="app-wrapper">
 				<Header className="header"></Header>
-				<Nav className="nav"></Nav>
+				<NavBar className="nav"></NavBar>
 				<Route path='/main' component={Main} />
 				<Route path='/dialogs' component={Dialogs} />
 				{/* <Main className="main"></Main> */}

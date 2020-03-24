@@ -1,6 +1,6 @@
 import React from 'react';
 import logo__1 from './ava__1.jpg';
-import logo__2 from './ava__2.jpg';
+// import logo__2 from './ava__2.jpg';
 import classes from './post.module.css';
 
 const Post = (props) => {

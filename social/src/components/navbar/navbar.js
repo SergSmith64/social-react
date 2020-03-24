@@ -1,8 +1,8 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
-import classes from './nav.module.css';
+import classes from './navbar.module.css';
 
-const Nav = () => {
+const NavBar = () => {
 		return (
 			<div className={classes.nav__wrapper}>
 				{/* <a href="#">Профиль</a> */}
@@ -35,4 +35,4 @@ const Nav = () => {
 		)
 	}
 
-	export default Nav;
+	export default NavBar;

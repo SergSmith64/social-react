@@ -8,13 +8,6 @@
 	color: blue;
 }
 
-.nav__wrapper .a:activeLink {
-	color: green;
-}
-
-/* a:activeLink {
-	color: gold;
-}
-a:active {
+.nav__wrapper a.activeLink {
 	color: red;
-} */
+}

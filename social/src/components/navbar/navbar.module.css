@@ -6,6 +6,7 @@
 .nav__wrapper a {
 	display: block;
 	color: blue;
+	text-decoration: none;
 }
 
 .nav__wrapper a.activeLink {

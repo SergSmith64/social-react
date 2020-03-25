@@ -12,6 +12,9 @@
 .dialogs_item.active {
 	color: red;
 }
+.dialogs_item a {
+	padding: 0;
+}
 .dialogsMessage {
 	background-color: #a7f2ff;
 	padding: 7px;

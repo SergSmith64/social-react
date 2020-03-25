@@ -15,12 +15,11 @@ const DialogSingle = (props) => {
 	)
 }
 
-// ПОКА - КОММЕНТ
-// const dialogsMessage = (props) => {
-// 	return (
-// 		<div className={classes.dialogsMessage}>{props.dialogsMessage}</div>
-// 	)
-// }
+const DialogsMessage = (props) => {
+	return (
+		<div className={classes.dialogsMessage}>{props.dialogsMessage}</div>
+	)
+}
 
 const Dialogs = (props) => {
 	return (
@@ -51,9 +50,12 @@ const Dialogs = (props) => {
 			</div>
 
 			<div className={classes.dialogs__messages}>
-				<div className={classes.dialogsMessage}>Привет</div>
+				{/* <div className={classes.dialogsMessage}>Привет</div>
 				<div className={classes.dialogsMessage}>Как дела?</div>
-				<div className={classes.dialogsMessage}>Нормально</div>
+				<div className={classes.dialogsMessage}>Нормально</div> */}
+				<DialogsMessage dialogsMessage="Привет"/>
+				<DialogsMessage dialogsMessage="Как дела?"/>
+				<DialogsMessage dialogsMessage="Нормально"/>
 			</div>
 			
 		</div>

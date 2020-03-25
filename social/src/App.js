@@ -14,8 +14,11 @@ const App = () => {
 			<div className="app-wrapper">
 				<Header className="header"></Header>
 				<NavBar className="nav"></NavBar>
+
 				<Route path='/main' component={Main} />
+				{/* <Route exact path='/dialogs' component={Dialogs} /> */}
 				<Route path='/dialogs' component={Dialogs} />
+
 				{/* <Main className="main"></Main> */}
 				{/* <Dialogs /> */}
 				<Route path='/news' component={News} />
